@@ -60,6 +60,7 @@ function unifyCucumberReport (filesArray, hasMagic) {
   })
 }
 
+/*
 try {
   const tool = tl.tool(tl.which('npm', true))
   tool.arg(['install'])
@@ -67,7 +68,7 @@ try {
 
   if (npmProcess.code !== 0) {
     throw new Error('Failed to install dependencies')
-  }
+  }*/
 
   const inputPath = (tl.getPathInput('jsonDir', true, false)).replace(/\\/g, '/')
   const pathHasMagic = globby.hasMagic(inputPath)

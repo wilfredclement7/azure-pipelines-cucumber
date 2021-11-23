@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "azure-pipelines-cucumber",
     "name": "Cucumber Report",
-    "publisher": "MaciejMaciejewski",
+    "publisher": "WilfredClement",
     "public": false,
     "author": "Maciej Maciejewski",
     "version": "1.0.7",
@@ -10,7 +10,7 @@
     "galleryFlags": [],
     "repository": {
       "type": "git",
-      "uri": "https://github.com/maciejmaciejewski/azure-pipelines-cucumber"
+      "uri": "https://github.com/WilfredClement/azure-pipelines-cucumber"
     },
     "targets": [
       {
